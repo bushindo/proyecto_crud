@@ -1,5 +1,5 @@
 <h1>Listado de Clientes</h1>
-<?php
+    <?php
 // incluir la conexión a la base de datos
 include 'conexion.php';
 // Elegir los datos que deseamos recuperar de la tabla
