@@ -29,7 +29,7 @@ ASIR project!
 <?php
 $default = 'lista'; //nuestra página por defecto.
 $accion = isset($_GET['accion']) ? $_GET['accion'] : $default; //obtenemos la
-página que queremos mostrar.
+//página que queremos mostrar.
 $accion = basename($accion); //nos quedamos con el nombre.
 if (!file_exists($accion . '.php')) { //comprobamos que el fichero exista
 $accion = $default; //si no existe mostramos la página por defecto
