@@ -3,7 +3,7 @@
     
     
     echo "<a href='index.php?accion=altas'>Alta cliente</a>";
-    echo "<a href='index.php?accion=edita&id={$id}'>Edita</a>"
+    echo "<a href='index.php?accion=edita&id={$id}'>Edita</a>";
 // incluir la conexión a la base de datos
 include 'conexion.php';
 // Elegir los datos que deseamos recuperar de la tabla
