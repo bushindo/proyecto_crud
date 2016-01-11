@@ -1,9 +1,5 @@
 <h1>Listado de Clientes</h1>
     <?php
-    
-    
-    echo "<a href='index.php?accion=altas'>Alta cliente</a>";
-    echo "<a href='index.php?accion=edita&id={$id}'>Edita</a>";
 // incluir la conexión a la base de datos
 include 'conexion.php';
 // Elegir los datos que deseamos recuperar de la tabla
@@ -19,7 +15,7 @@ $stmt->bind_result($id, $nif, $nombre, $apellido1, $apellido2, $email, $telefono
 $usuario);
 // enlace a alta de cliente
 echo "<div>";
-echo "<a href='alta.php'>Alta cliente</a>";
+echo "<a href='index.php?accion=altas'>Alta cliente</a>";
 echo "</div>";
 //cabecera de los datos mostrados
 echo "<table>"; //start table

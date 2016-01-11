@@ -18,10 +18,10 @@ window.location = 'borra.php?id=' + id;
 <div id="wrapper">
 <div id="header">
 <div id="logo">
-<img src="img/logo_blanco_0.png"></img>
+<img class="TamImg" src="img/logo_web.jpeg"></img>
 </div>
 <div id="title">
-ASIR project!
+Manager Emulation LOL
 </div>
 </div>
 <div id="content">
@@ -39,8 +39,8 @@ include( $accion . '.php'); //y ahora mostramos la pagina llamada
 </div>
 <div id="footer">
 <div id="subtitle">
-<a href="http://www.ausiasmarch.net/asir"> CFGS Administración de
-Sistemas Informáticos y Redes </a>
+    <p class="BotIzquierda"> #MELOL</p>
+    <p class="BotDerecha"> Alejandro Rodríguez Moreno </p>
 </div>
 </div>
 </div>
